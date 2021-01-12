@@ -1,6 +1,6 @@
-import PageContent from '../components/styles/PageContent';
-import ContentSection from '../components/styles/ContentSection';
-import theme from '../utils/theme';
+import PageContent from "../components/styles/PageContent";
+import ContentSection from "../components/styles/ContentSection";
+import theme from "../src/utils/theme";
 
 const Story = () => (
   <PageContent>
