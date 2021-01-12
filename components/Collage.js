@@ -2,13 +2,12 @@ import CollageStyles from "./styles/Collage";
 
 const Collage = () => (
   <CollageStyles>
-    <img className="image--center" src="/static/hapenny-bridge.jpg" />
-    <img className="image--top-left" src="/static/fiddle-drawing.jpg" />
-    <img className="image--left" src="/static/flowers.jpg" />
-    <img className="image--bottom-left" src="/static/mason-jars.jpg" />
-    <img className="image--top-right" src="/static/dan-christina-door.jpeg" />
-    <img className="image--right" src="/static/kehoes-sign-evening.jpg" />
-    <img className="image--bottom-right" src="/static/guinness-kehoes.jpg" />
+    <img className="image--center" src="/static/wedding-7.jpeg" />
+    <img className="image--top-left" src="/static/wedding-3.jpeg" />
+    <img className="image--bottom-left" src="/static/wedding-1.jpeg" />
+    <img className="image--top-right" src="/static/wedding-4.jpeg" />
+    <img className="image--right" src="/static/wedding-5.jpeg" />
+    <img className="image--bottom-right" src="/static/wedding-6.jpeg" />
   </CollageStyles>
 );
 

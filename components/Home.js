@@ -26,8 +26,8 @@ const HomeStyles = styled.div`
 const Home = () => (
   <HomeStyles>
     <Collage />
-    <span className="date">March 6, 2021</span>
-    <span className="location">Bangalore</span>
+    <span className="date">Feb 21, 2021</span>
+    <span className="location">Delhi</span>
   </HomeStyles>
 );
 

@@ -57,11 +57,11 @@ const CollageStyles = styled.div`
   .image--bottom-left {
     animation-name: outer-image;
     animation-duration: 1s;
-    left: -183px;
+    left: -249px;
     position: absolute;
-    bottom: -67px;
+    bottom: -59px;
     transform: rotate(1deg);
-    width: 225px;
+    width: 320px;
     z-index: 5;
     ${mobile} {
       bottom: -29px;
@@ -72,7 +72,7 @@ const CollageStyles = styled.div`
   .image--top-right {
     animation-name: outer-image;
     animation-duration: 1s;
-    right: -200px;
+    right: -221px;
     position: absolute;
     top: -37px;
     transform: rotate(3deg);
@@ -101,9 +101,9 @@ const CollageStyles = styled.div`
   .image--bottom-right {
     animation-name: outer-image;
     animation-duration: 1.5s;
-    bottom: -58px;
+    bottom: -118px;
     position: absolute;
-    right: -183px;
+    right: -273px;
     transform: rotate(-2deg);
     width: 282px;
     z-index: 3;
