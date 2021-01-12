@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { tablet, mobile } from '../../utils/mediaQueries';
-import theme from '../../utils/theme';
+import styled from "styled-components";
+import { tablet, mobile } from "../../utils/mediaQueries";
+import theme from "../../utils/theme";
 
 const HeaderStyles = styled.div`
   color: ${theme.sage};
