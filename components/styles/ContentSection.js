@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { tablet, mobile } from '../../utils/mediaQueries';
-import theme from '../../utils/theme';
+import styled from "styled-components";
+import { tablet, mobile } from "../../utils/mediaQueries";
+import theme from "../../utils/theme";
 
 const ContentSection = styled.div`
   align-items: flex-start;
@@ -26,6 +26,10 @@ const ContentSection = styled.div`
   .address {
     font-style: italic;
     padding-top: 2rem;
+  }
+  .hashtag {
+    color: #3c8ac2;
+    margin-top: 8px;
   }
   ${tablet} {
     img:last-child {

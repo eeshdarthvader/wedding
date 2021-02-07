@@ -34,13 +34,7 @@ const HeaderStyles = styled.div`
       font-size: 28px;
     }
   }
-  .hashtag {
-    margin-top: 110px;
-    font-size: 24px;
-    ${mobile} {
-      margin-left: 16px;
-    }
-  }
+
   ul {
     bottom: 0px;
     display: flex;
