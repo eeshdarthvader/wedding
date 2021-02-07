@@ -79,9 +79,9 @@ const CollageStyles = styled.div`
     width: 270px;
     z-index: 5;
     ${mobile} {
-      right: -131px;
+      right: -93px;
       top: -29px;
-      width: 178px;
+      width: 147px;
     }
   }
   .image--right {

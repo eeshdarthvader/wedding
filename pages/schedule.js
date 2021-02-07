@@ -8,10 +8,10 @@ const Schedule = () => (
     <ContentSection>
       <img src="/static/reception.jpeg" style={theme.rotateStyle(-1)} />
       <div className="content">
-        Since we are getting married with only family around on 21st Feb We do
-        not want to miss the chance to celebrate with our friends. You are
-        cordially invited to our wedding reception on 6th March 2021 in
-        Bangalore Details to follow
+        Since we are getting married with only family around on 21st Feb, we do
+        not want to miss the chance to celebrate our union with our friends. You
+        are cordially invited to our wedding reception on 6th March 2021 for
+        drinks and lunch in Bangalore.
         <div className="address">
           Brooks and Bonds Brewery
           <br />

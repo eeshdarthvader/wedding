@@ -12,6 +12,7 @@ const HomeStyles = styled.div`
   justify-content: center;
   padding: 5rem 0;
   .date {
+    color: ${theme.offWhite};
     font-size: ${theme.subheadFontSize};
     margin-top: 9.5rem;
     ${mobile} {
@@ -19,6 +20,7 @@ const HomeStyles = styled.div`
     }
   }
   .location {
+    color: ${theme.offWhite};
     font-size: ${theme.h3FontSize};
   }
 `;

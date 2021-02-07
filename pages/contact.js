@@ -1,22 +1,65 @@
-import PageContent from '../components/styles/PageContent';
-import ContentSection from '../components/styles/ContentSection';
+import React, { useState } from "react";
+import fire from "../config/fire-base";
+import {
+  FormControl,
+  FormLabel,
+  FormControlLabel,
+  RadioGroup,
+  Radio,
+} from "@material-ui/core";
+import PageContent from "../components/styles/PageContent";
+import ContentSection from "../components/styles/ContentSection";
 
-const Contact = () => (
-  <PageContent>
-    <div className="heading">How to get in touch</div>
-    You can reach us anytime at{' '}
-    <a href="mailto:christinaanddansweddingparty@gmail.com">
-      christinaanddansweddingparty@gmail.com
-    </a>
-    <br />
-    <br />
-    Dan's Irish phone: +353 85 250 9533
-    <br />
-    Christina's Irish phone: +353 86 104 2451
-    <br />
-    <br />
-    We can't wait to see you all!
-  </PageContent>
-);
+const Contact = () => {
+  const [name, setName] = useState("");
+  const [answer, setAnswer] = useState("");
+  const [notification, setNotification] = useState("");
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    fire.firestore().collection("guests").add({
+      name: name,
+      answer: answer,
+    });
+
+    setName("");
+    setAnswer("");
+
+    setNotification("Blogpost created");
+
+    setTimeout(() => {
+      setNotification("");
+    }, 2000);
+  };
+  return (
+    <PageContent>
+      <h2>Please respond to the event</h2>
+      <form onSubmit={handleSubmit}>
+        <div>
+          <label className="label">Name</label>
+          <br />
+          <input
+            type="text"
+            className="input"
+            value={name}
+            onChange={({ target }) => setName(target.value)}
+          />
+        </div>
+        <div>
+          <label className="label">Answer</label>
+          <br />
+          <textarea
+            value={answer}
+            className="input"
+            onChange={({ target }) => setAnswer(target.value)}
+          />
+        </div>
+        <button className="save" type="submit">
+          Save
+        </button>
+      </form>
+    </PageContent>
+  );
+};
 export default Contact;

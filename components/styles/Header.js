@@ -31,6 +31,7 @@ const HeaderStyles = styled.div`
       max-width: 300px;
       padding-right: 10px;
       width: 100%;
+      font-size: 28px;
     }
   }
   ul {
@@ -50,16 +51,13 @@ const HeaderStyles = styled.div`
       right: 20px;
     }
     ${mobile} {
-      flex-direction: column;
-      text-align: right;
+      font-size: 26px;
     }
   }
   ${tablet} {
-    height: 155px;
     width: 100%;
   }
   ${mobile} {
-    height: 295px;
     margin-bottom: 2rem;
   }
 `;

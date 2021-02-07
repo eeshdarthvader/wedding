@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { tablet, mobile } from '../../utils/mediaQueries';
-import theme from '../../utils/theme';
+import styled from "styled-components";
+import { tablet, mobile } from "../../utils/mediaQueries";
+import theme from "../../utils/theme";
 
 const PageContent = styled.div`
   align-items: flex-start;
@@ -28,6 +28,25 @@ const PageContent = styled.div`
   ${tablet} {
     box-shadow: none;
     width: 100vw;
+  }
+  .label {
+    color: grey;
+    font-family: cursive;
+  }
+  .input {
+    margin-bottom: 20px;
+    border: 1px solid #e5e5e5;
+    padding: 12px;
+    border-radius: 4px;
+  }
+
+  .save {
+    font-size: 14px;
+    padding: 8px;
+    width: 100px;
+    background: #ededed;
+    border: 1px solid #f3eeee;
+    color: #5f5f5f;
   }
 `;
 

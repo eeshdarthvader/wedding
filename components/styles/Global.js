@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const Global = createGlobalStyle`
   html {
@@ -10,12 +10,12 @@ const Global = createGlobalStyle`
   }
   body {
     align-items: center;
-    background-color: ${props => props.theme.offWhite}
-    color: ${props => props.theme.offBlack};
+    background-color: ${(props) => props.theme.darkBlack};
+    color: ${(props) => props.theme.offBlack};
     display: flex;
     flex: 1;
     flex-direction: column;
-    font-family: ${props => props.theme.bodyFont};
+    font-family: ${(props) => props.theme.bodyFont};
     font-size: 1.6rem;
     justify-content: flex-start;
     line-height: 1.5;
