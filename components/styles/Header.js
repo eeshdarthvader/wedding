@@ -6,7 +6,7 @@ const HeaderStyles = styled.div`
   color: ${theme.sage};
   display: flex;
   font-family: ${theme.titleFont};
-  height: 100px;
+  height: 120px;
   line-height: 1.2;
   margin: 4rem 0;
   width: ${theme.maxContentWidth};
@@ -34,6 +34,13 @@ const HeaderStyles = styled.div`
       font-size: 28px;
     }
   }
+  .hashtag {
+    margin-top: 110px;
+    font-size: 24px;
+    ${mobile} {
+      margin-left: 16px;
+    }
+  }
   ul {
     bottom: 0px;
     display: flex;
@@ -58,7 +65,7 @@ const HeaderStyles = styled.div`
     width: 100%;
   }
   ${mobile} {
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
   }
 `;
 

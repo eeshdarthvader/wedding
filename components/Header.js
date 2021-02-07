@@ -10,11 +10,13 @@ const Header = ({ router }) => {
 
   return (
     <HeaderStyles>
+      <div className="hashtag">#ballebihari</div>
       <div className="title">
         <Link href="/">
           <a style={applySelected("/")}>Sanya and Jishnu's Wedding</a>
         </Link>
       </div>
+
       <ul>
         <li>
           <Link href="/schedule">
