@@ -27,6 +27,11 @@ const ContentSection = styled.div`
     font-style: italic;
     padding-top: 2rem;
   }
+  .dressing {
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #c08162;
+  }
   .hashtag {
     color: #3c8ac2;
     margin-top: 8px;

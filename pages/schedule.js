@@ -12,7 +12,10 @@ const Schedule = () => (
         not want to miss the chance to celebrate our union with our friends. You
         are cordially invited to our wedding reception on 6th March 2021 for
         drinks and lunch in Bangalore.
-        <div className="hashtag">Share your pics with #ballebihari</div>
+        <div className="hashtag">
+          For our insta fam, please share the pics with hastag #SaJiniya
+        </div>
+        <div className="dressing">Dress code: Semi formal</div>
         <div className="address">
           Brooks and Bonds Brewery
           <br />

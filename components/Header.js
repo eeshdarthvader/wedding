@@ -18,6 +18,7 @@ const Header = ({ router }) => {
 
       <ul>
         <li>
+          <div className="arrow"></div>
           <Link href="/schedule">
             <a style={applySelected("/schedule")}>Schedule</a>
           </Link>

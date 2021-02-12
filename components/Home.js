@@ -10,26 +10,34 @@ const HomeStyles = styled.div`
   flex-direction: column;
   font-family: ${theme.titleFont};
   justify-content: center;
-  padding: 5rem 0;
+  padding: 0.1rem 0;
+  .hashtag {
+    color: ${theme.copper};
+    font-size: ${theme.h3FontSize};
+  }
   .date {
     color: ${theme.offWhite};
     font-size: ${theme.subheadFontSize};
-    margin-top: 9.5rem;
     ${mobile} {
-      margin-top: 7.5rem;
+      font-size: ${theme.h3FontSize};
     }
   }
   .location {
     color: ${theme.offWhite};
     font-size: ${theme.h3FontSize};
+    margin-bottom: 6rem;
+    ${mobile} {
+      font-size: ${theme.h3FontSize};
+    }
   }
 `;
 
 const Home = () => (
   <HomeStyles>
-    <Collage />
+    <span className="hashtag">#SaJiniya</span>
     <span className="date">Feb 21, 2021</span>
     <span className="location">Delhi</span>
+    <Collage />
   </HomeStyles>
 );
 
